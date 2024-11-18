@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #c05b5b;
+}
+.navbar {
+    background-color: white;
+    color: rgb(2, 2, 2);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 75px;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar li {
+    margin: 0 15px;
+}
+.navbar a {
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+}
+.hero {
+    background: url(huanuco_hero.jpeg) no-repeat center/cover;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 34px;
+}
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+.hero-content p {
+    font-size: 1.2rem;
+}
+header {
+    background-color: #004d99;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+main {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card h3 {
+    margin: 10px 0;
+    color: #004d99;
+}
+
+.card p {
+    padding: 0 10px 10px;
+    font-size: 0.9rem;
+    color: #333;
+}
+.Ver-Más {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    background-color: #40E0D0;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.Ver-Más:hover {
+    background-color: #FF6347;
+    transform: scale(1.1);
+}
+section {
+    background: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+section img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    background-color: #292a2b;
+    color: white;
+    padding: 10px 0;
+}
+.telf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.telf_icono {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px; 
+}
+.numero-telefono {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000; 
+}
+.whatsapp-logo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #8ae2ab;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+.whatsapp-logo:hover {
+    transform: scale(1.1);
+}
+.whatsapp-logo img {
+    width: 50px;
+    height: 50px;
+}
